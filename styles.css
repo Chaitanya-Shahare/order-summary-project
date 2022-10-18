@@ -2,7 +2,7 @@
 @media only screen and (max-width: 4000px) {
   body {
 	background-image: url(images/pattern-background-desktop.svg);
-	padding-top: 20vh;
+	padding-top: 20%;
   }
   div.card {
 	margin-top: 20%;
