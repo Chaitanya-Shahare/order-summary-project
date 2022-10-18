@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 1440px) {
+  body {
+	background-image: url(images/pattern-background-desktop.svg);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+	background-image: url(images/pattern-background-mobile.svg);
+  }
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-repeat:no-repeat;
+	background-size: contain;
+    background-size: cover;	  
+	background-position: bottom; 
+font-family: 'Red Hat Display', sans-serif;
+}
+
+div.card {
+	width: 40%;
+	background-color: lightblue;
+	border-radius: 20px;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+	border-radius: 20px 20px 0 0;
+}
+
+div.main {
+	padding: 20px;
+}
+
+.title, .description {
+	text-align: center;
+}
