@@ -18,13 +18,16 @@ body {
 	background-size: contain;
     background-size: cover;	  
 	background-position: bottom; 
-font-family: 'Red Hat Display', sans-serif;
+	font-family: 'Red Hat Display', sans-serif;
 }
 
 div.card {
 	width: 40%;
-	background-color: lightblue;
+	max-width: 160px;
+	min-width: 340px;
 	border-radius: 20px;
+	background-color: white;
+	margin-top: 20vh;
 }
 
 .image {
@@ -47,4 +50,65 @@ div.main {
 
 .description {
 	font-size: 90%;
+}
+
+img.music-icon,
+div.plan-details,
+a.change-plan {
+	display: inline-block;
+}
+
+div.plan {
+	height: 80px;
+	display: flex;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 20px;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+	align-items: center;
+	padding: none;
+	margin-bottom: 30px;
+}
+
+img.music-icon {
+	height: 40px;
+	width: auto;
+	margin-left: 25px;
+}
+
+div.plan-details {
+	height: 80px;
+}
+
+.plan-details-price, 
+.plan-details-name {
+	margin-top: 9px;
+	margin-left: 20px;
+}
+
+a.change-plan {
+margin-left: 20px;
+}
+
+button {
+	font-family: 'Red Hat Display', sans-serif;
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	border-radius: 10px;
+	border: 0px;
+	padding: 10px 20px;
+	box-shadow: 0px 9px 15px hsl(224, 23%, 55%);
+}
+
+div.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+a.cancel-order {
+	text-align: center;
+	padding-top: 30px;
+	color: hsl(224, 23%, 55%);
+
 }
