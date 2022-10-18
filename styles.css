@@ -146,7 +146,7 @@ div.main {
 
 a.cancel-order {
 	text-align: center;
-	padding-top: 30px;
+	margin-top: 30px;
 	color: hsl(224, 23%, 55%);
 	font-size: 14px;
 	font-style: bolder;
