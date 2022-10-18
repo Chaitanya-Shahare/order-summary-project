@@ -1,13 +1,19 @@
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 4000px) {
   body {
 	background-image: url(images/pattern-background-desktop.svg);
+  }
+  div.card {
+	margin-top: 20vh;
   }
 }
 
 @media only screen and (max-width: 375px) {
   body {
 	background-image: url(images/pattern-background-mobile.svg);
+  }
+  div.card {
+	margin-top: 6vh;
   }
 }
 
@@ -27,7 +33,6 @@ div.card {
 	min-width: 340px;
 	border-radius: 20px;
 	background-color: white;
-	margin-top: 20vh;
 }
 
 .image {
