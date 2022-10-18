@@ -145,6 +145,7 @@ div.main {
 }
 
 a.cancel-order {
+	text-decoration: none;
 	text-align: center;
 	margin-top: 30px;
 	color: hsl(224, 23%, 55%);
