@@ -40,3 +40,11 @@ div.main {
 .title, .description {
 	text-align: center;
 }
+
+.title {
+	font-weight: 8px;
+}
+
+.description {
+	font-size: 90%;
+}
