@@ -2,17 +2,17 @@
 @media only screen and (max-width: 4000px) {
   body {
 	background-image: url(images/pattern-background-desktop.svg);
-	padding-top: 20%;
+	padding-top: 10vh;
   }
   div.card {
-	margin-top: 20%;
+	margin-top: 10vh;
   }
 }
 
 @media only screen and (max-width: 500px) {
   body {
 	background-image: url(images/pattern-background-mobile.svg);
-	padding-top: 1vh;
+	padding-top: 4vh;
   }
   div.card {
 	margin-top: 0;
