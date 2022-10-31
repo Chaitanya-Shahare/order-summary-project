@@ -18,7 +18,7 @@
 	margin-top: 0;
   }
 }
-
+/* 
 body {
 	display: flex;
 	justify-content: center;
@@ -28,6 +28,18 @@ body {
     background-size: cover;	  
 	background-position: bottom; 
 	font-family: 'Red Hat Display', sans-serif;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E1E9FF;
+    background-size: contain;
+    /* background-position: bottom; */
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 div.card {
